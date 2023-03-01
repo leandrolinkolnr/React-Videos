@@ -1,10 +1,13 @@
-import { MeuComponente } from './Components/MeuComponente';
+import { VideoList } from "./Components/VideoList";
+import { VideoPlayer } from "./Components/VideoPlayer";
+import './App.css'
 
 function App() {
   return (
     <div className="App">
       <header >
-        <MeuComponente />
+          <VideoList />
+          <VideoPlayer />
       </header>
     </div>
   );
