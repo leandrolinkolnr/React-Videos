@@ -1,8 +1,9 @@
 import React from "react";
 
+//Importar o css aqui?
 
-export class VideoInline extends React.Component{
-    render() {
-        return(<h1>Nada ainda</h1>)
-    }
+export function VideoInline() {
+    return(
+        <div className="video-inline"></div>
+    );
 }
